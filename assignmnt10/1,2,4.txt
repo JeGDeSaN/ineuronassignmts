@@ -1,0 +1,44 @@
+1. Higher order function and Call back function are not same.
+
+		Higher order function 			Call back function
+	
+	 
+	HOF is a function that takes one or 		CBF is a fucntion that is passed into
+	more fucntions as arguments or 			a function as an argument, then 
+	returns a function as its itself.		invoked inside the outer function to
+							complete some action.
+
+	Map,Filter,Reduce are the examples of		Primary purpose is to execute code in
+	HOF.						response to an event.
+
+
+	HOF is the function that takes call back	CBF is the function that passed as an	 
+	function as a argument.				argument inside Higher order function.		
+
+
+
+
+
+2. Filter is a Higher order function. Filter used to take in argument and return a filtered
+   value based on a certain condition. It also takes call back function as argument and
+   returns an new array with only values that meet certain criteria. It return value which 
+   can be used as an argument also but not neccessarily should be used as arugument to 
+   any fucntion unlike call back function which is compulsory need to execute.
+
+
+4 a) Line 4 has an error.Fixing error by 
+
+
+		fn(arr[I]);  ===>  fn(arr(i));  
+
+
+		Output:
+
+		Hello John
+		Hello Tina
+		Hello Kale
+		Hello Max
+
+
+ b) usefunction() is the Higher order function as its takes argFn another fucntion as an 
+    argument.
