@@ -1,0 +1,33 @@
+1.			Generator				Functions
+
+
+	Generator can stop its execution midway			cannot be stopped between execution
+	and continue their execution from some			which is designed to perform a 
+	point.							particular task.
+
+
+	Yield statement passes the execution of			Functions are self invoked and used for
+	a generator and returns a value.			reuseing the code multifle times.
+
+	
+	Generators are memory efficient as it			Functions have only one return statement
+	can be yield whenever its needed.			and returns value. 
+
+
+
+2.	Syntax:
+
+		function* generatorFunction()	{
+
+				yield value1;
+				yield value2;
+
+						}
+
+
+3. 	Function Generators are iterable.
+
+	Generator function are used to create custom iterators.
+
+	An iterator is a object that implements the iterator protocol,which requires the presence of next() method that returns 
+	an object with the property value.
