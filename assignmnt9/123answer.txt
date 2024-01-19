@@ -1,0 +1,40 @@
+1 a) An inner function is a closure which has access to the outer function scope.Every call of the outer function creates a new closure. Closure has access to its own scope,outer fucntion variable and its global variable.
+
+b) Output:  100
+
+
+
+
+2.		Scope					Closure
+
+
+	Describes the context of the variable		refers the ability of function
+	access.						to remember and access lexical
+							scope.
+
+	Variable has limited lifetime.			Variable can persist beyond the 
+							lifetime of function.
+
+	Variable within a scope are accessible		Closure allow access to variable
+	within that scope.				from their containing function
+							even after that function has exited.
+
+
+
+
+3.	Lexical scope is the ability for a function scope to access variable from the parent 
+	scope.It defines the scope of a variable by the position of that variable declared in
+	the source code. 
+	
+	It is related to closure as it enables a fucntion to access  variable even after its 
+	scope closes.
+
+
+
+
+4. 	Output:
+
+		3
+		3
+		3
+	with set time out 1000ms (1 min)
