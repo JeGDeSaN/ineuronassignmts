@@ -1,0 +1,23 @@
+1.	Error!
+	Success 4
+
+
+4.	start
+	middle
+	1
+	end
+	success
+
+6.	SUCCESS!
+
+7.	Error: The Fails!
+
+8.	start
+	end
+	resolve
+	setTimeout
+
+9.	start
+	end
+	1
+	2	
