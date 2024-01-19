@@ -1,0 +1,11 @@
+1.  In set object , duplicate values cannot be added into the set. add() checks if the new values is already inside the set and then inserts into set.
+
+
+
+2 a) let set_name= new Set()
+
+
+b) set_name.add(value)
+
+
+c) set_name.delete(value)
