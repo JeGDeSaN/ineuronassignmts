@@ -1,0 +1,9 @@
+5.  Split method converts string into array
+
+
+6. indexof() method used to check the occurance of text in string .
+
+
+7. "\n " to break string to newline.
+
+
